@@ -5,7 +5,7 @@ const Index = () => {
   return (
     <Container maxW="container.xl" p={0}>
       {/* Navigation Bar */}
-      <Box as="nav" bg="gray.800" color="white" py={4}>
+      <Box as="nav" bg="#003366" color="white" py={4}>
         <Flex justify="space-between" align="center" maxW="container.xl" mx="auto" px={4}>
           <Heading as="h1" size="lg">Financial Times</Heading>
           <HStack spacing={8}>
@@ -22,21 +22,21 @@ const Index = () => {
       <Flex direction={{ base: "column", md: "row" }} mt={8} px={4}>
         {/* Main Article */}
         <Box flex="3" mr={{ md: 4 }}>
-          <Box bg="gray.100" p={4} mb={4}>
+          <Box bg="#F3F3F3" p={4} mb={4}>
             <Heading as="h2" size="xl" mb={2}>Prominent Headline Article</Heading>
             <Text fontSize="md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</Text>
           </Box>
           {/* Smaller Articles */}
           <VStack spacing={4}>
-            <Box bg="gray.100" p={4}>
+            <Box bg="#F3F3F3" p={4}>
               <Heading as="h3" size="md" mb={2}>Smaller Article 1</Heading>
               <Text fontSize="sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Text>
             </Box>
-            <Box bg="gray.100" p={4}>
+            <Box bg="#F3F3F3" p={4}>
               <Heading as="h3" size="md" mb={2}>Smaller Article 2</Heading>
               <Text fontSize="sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Text>
             </Box>
-            <Box bg="gray.100" p={4}>
+            <Box bg="#F3F3F3" p={4}>
               <Heading as="h3" size="md" mb={2}>Smaller Article 3</Heading>
               <Text fontSize="sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Text>
             </Box>
@@ -44,7 +44,7 @@ const Index = () => {
         </Box>
 
         {/* Sidebar */}
-        <Box flex="1" bg="gray.50" p={4} mt={{ base: 4, md: 0 }}>
+        <Box flex="1" bg="#EDEDED" p={4} mt={{ base: 4, md: 0 }}>
           <Heading as="h3" size="md" mb={4}>Sidebar</Heading>
           <VStack spacing={4}>
             <Link href="#">Additional Link 1</Link>
@@ -56,7 +56,7 @@ const Index = () => {
       </Flex>
 
       {/* Footer */}
-      <Box as="footer" bg="gray.800" color="white" py={4} mt={8}>
+      <Box as="footer" bg="#003366" color="white" py={4} mt={8}>
         <Flex justify="space-between" align="center" maxW="container.xl" mx="auto" px={4}>
           <Text>&copy; 2023 Financial Times</Text>
           <HStack spacing={4}>
